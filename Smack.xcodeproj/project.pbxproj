@@ -16,6 +16,7 @@
 		A3232F0422E4C8B000CDCD06 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3232F0322E4C8B000CDCD06 /* ChatVC.swift */; };
 		A3232F0622E4C8C200CDCD06 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3232F0522E4C8C200CDCD06 /* ChannelVC.swift */; };
 		A3232F0822E4D36C00CDCD06 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3232F0722E4D36C00CDCD06 /* GradientView.swift */; };
+		A3232F0A22E4EB0C00CDCD06 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3232F0922E4EB0C00CDCD06 /* LoginVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		A3232F0322E4C8B000CDCD06 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		A3232F0522E4C8C200CDCD06 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		A3232F0722E4D36C00CDCD06 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		A3232F0922E4EB0C00CDCD06 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 			children = (
 				A3232F0322E4C8B000CDCD06 /* ChatVC.swift */,
 				A3232F0522E4C8C200CDCD06 /* ChannelVC.swift */,
+				A3232F0922E4EB0C00CDCD06 /* LoginVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 			files = (
 				A3232F0622E4C8C200CDCD06 /* ChannelVC.swift in Sources */,
 				A3232F0422E4C8B000CDCD06 /* ChatVC.swift in Sources */,
+				A3232F0A22E4EB0C00CDCD06 /* LoginVC.swift in Sources */,
 				A3232F0822E4D36C00CDCD06 /* GradientView.swift in Sources */,
 				A31123E222E4B8E4007A5723 /* AppDelegate.swift in Sources */,
 				A3232EFE22E4C1AE00CDCD06 /* SWRevealViewController.m in Sources */,
