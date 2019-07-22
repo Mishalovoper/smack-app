@@ -9,11 +9,13 @@
 import UIKit
 
 class LoginVC: UIViewController {
-
+    @IBOutlet weak var createAccount: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        let gestureRecognition = UITapGestureRecognizer(target: self, action: #selector(LoginVC.createAccountTapped))
+        createAccount.addGestureRecognizer(gestureRecognition)
+        createAccount.isUserInteractionEnabled = true
     }
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         view.endEditing(true)
@@ -24,6 +26,9 @@ class LoginVC: UIViewController {
         dismiss(animated: true, completion: nil)
     }
     
+   @objc func createAccountTapped() {
+    performSegue(withIdentifier: "toCreateAccount", sender: nil)
+    }
     
     
 }

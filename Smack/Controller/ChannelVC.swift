@@ -20,5 +20,6 @@ class ChannelVC: UIViewController {
         
         performSegue(withIdentifier: "loginSegue", sender: nil)
     }
+    @IBAction func unwindly(segue : UIStoryboardSegue) {}
     
 }
